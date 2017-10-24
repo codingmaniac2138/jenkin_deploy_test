@@ -7,7 +7,8 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "../../"))
 
 import xmlrunner
 import unittest
-from jenkin_test import tt
+print (os.getcwd())
+from test_deploy import tt
 
 class exampleTest(unittest.TestCase):
 
